@@ -1,0 +1,47 @@
+.App { 
+  text-align: center; 
+} 
+body{
+  background-color: rgb(19, 19, 18);
+}
+h1{
+  height: 10px;
+}
+ 
+.App-header { 
+  background-color: rgb(4, 225, 249); 
+  padding: 20px; 
+  color: rgb(0, 0, 0); 
+} 
+.product-list { 
+  display: flex; 
+  flex-wrap: wrap; 
+  justify-content: center; 
+  padding: 20px; 
+  color:white;}
+
+.product-box:hover { 
+  border-radius: 5px;
+  background-color: rgb(51, 54, 54);
+} 
+ 
+.product-card { 
+  border: 1px solid #a19d9d; 
+  border-radius: 4px; 
+  padding: 20px; 
+  margin: 10px; 
+  width: 200px; 
+
+} 
+.product-card :nth-child(1){
+  color: aqua;
+}
+ 
+.product-card h2 { 
+  font-size: 1.2em; 
+  margin-bottom: 10px; 
+} 
+ 
+.product-card p { 
+  margin: 5px 0; 
+}
